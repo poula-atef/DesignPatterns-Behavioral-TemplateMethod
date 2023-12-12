@@ -1,7 +1,7 @@
 package org.mycode.entities;
 
-abstract public class Test {
-    public void startTest(){
+public abstract class Test {
+    public final void startTest(){
         displayQuestions();
         collectAnswers();
         evaluateAnswers();
